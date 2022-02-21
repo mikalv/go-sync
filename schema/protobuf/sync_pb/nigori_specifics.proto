@@ -207,4 +207,10 @@ message NigoriSpecifics {
 
   // Boolean corresponding to whether OS preferences should be encrypted.
   optional bool encrypt_os_preferences = 49;
+
+  // Boolean corresponding to whether VG bodies should be encrypted.
+  optional bool encrypt_vg_bodies = 52;
+
+  // Boolean corresponding to whether VG spend statuses should be encrypted.
+  optional bool encrypt_vg_spend_statuses = 53;
 }
